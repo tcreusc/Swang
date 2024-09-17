@@ -1,3 +1,8 @@
+title: Swan
+
+header_pages:
+  - about.md
+
 sass:
   sass_dir:           _sass
   style:              compressed
