@@ -18,49 +18,209 @@ layout: base
 
   <h1> Features </h1>
   {%- if posts.size > 0 -%}
-    {%- if page.list_title -%}
-      <h2 class="post-list-heading">{{ page.list_title }}</h2>
-    {%- endif -%}
-    <ul class="post-list">
-      {%- assign date_format = site.minima.date_format | default: "%b %-d, %Y" -%}
+
+    <div class="ag-courses_box">
+
       {%- for post in posts -%}
       {% if post.categories contains 'feature' %}
-      <li>
-        <h3>
-          <a class="post-link" href="{{ post.url | relative_url }}">
+    
+    
+      <div class="ag-courses_item">
+        <a href="{{ post.url | relative_url }}" class="post-link ag-courses-item_link">
+          <div class="ag-courses-item_bg"></div>
+    
+          <div class="ag-courses-item_title">
             {{ post.title | escape }}
-          </a>
-        </h3>
-        {{ post.subtitle | escape }}
-        {%- if site.show_excerpts -%}
-          {{ post.excerpt }}
-        {%- endif -%}
-      </li>
+          </div>
+          
+          <div class="ag-courses-item_subtitle">
+          {{ post.subtitle | escape }}
+          </div>
+    
+          <!-- <div class="ag-courses-item_date-box">
+            Start:
+            <span class="ag-courses-item_date">
+              {{ post.date | date: date_format }}
+            </span>
+          </div> -->
+        </a>
+      </div>
+    
       {% endif %}
       {%- endfor -%}
-    </ul>
-
-    {% if site.paginate %}
-      <div class="pager">
-        <ul class="pagination">
-        {%- if paginator.previous_page %}
-          <li><a href="{{ paginator.previous_page_path | relative_url }}" class="previous-page">{{ paginator.previous_page }}</a></li>
-        {%- else %}
-          <li><div class="pager-edge">•</div></li>
-        {%- endif %}
-          <li><div class="current-page">{{ paginator.page }}</div></li>
-        {%- if paginator.next_page %}
-          <li><a href="{{ paginator.next_page_path | relative_url }}" class="next-page">{{ paginator.next_page }}</a></li>
-        {%- else %}
-          <li><div class="pager-edge">•</div></li>
-        {%- endif %}
-        </ul>
-      </div>
-    {%- endif %}
+    </div>
 
   {%- endif -%}
 
   <h1> News </h1>
+  <div class="cardbox">
+
+
+  <!-- Content-->
+
+<div class="noticies-container">
+<div class="noticies">
+
+  <div class = "tarja">
+    <div class="tarja-header-color"> 
+     <div class ="tarja-header-color-text">
+      More projects underway!
+     </div>
+     <div class ="tarja-header-color-data">
+      19 Sept 2024
+     </div>
+    </div>
+    <div class="tarja-cos-content"> 
+      <div class ="">Web Design templates are good for your health, actually</div>
+    </div>
+  </div>
+
+  <div class = "tarja">
+
+    <div class="tarja-full-image">
+      <div class="tarja-header-fons-text" style="margin: 75px 0; font-size: 24px">I was talking too much and then</div>
+      <div style="display:none">I was talking too much and then</div>
+      <div class="tarja-header-fons-data">19 Sept 2024</div>
+    </div>
+
+  </div>
+
+  <div class = "tarja">
+      <div class="tarja-header-fons"> 
+       <div class ="tarja-header-fons-text">Web Design templates are good for your health, actually</div>
+      </div>
+
+      <div class="tarja-cos-content"> 
+        <div class ="">Web Design templates are good for your health, actually</div>
+      </div>
+  </div>
+
+
+  <div class = "tarja">
+
+    <div class="tarja-model-text">
+    <div class="tarja-header-color"> 
+     <div class ="tarja-header-color-text">
+      More projects underway!
+     </div>
+     <div class ="tarja-header-color-data">
+      19 Sept 2024
+     </div>
+    </div>
+    <div class="tarja-cos-content"> 
+      <div class ="">Web Design templates are good for your health, actually</div>
+    </div>
+    </div>
+    <div class="tarja-model-foto-prou">
+      <div class="tarja-full-image">
+        <div class="tarja-header-fons-text" style="margin: 75px 0; font-size: 24px">I was talking too much and then</div>
+        <div style="display:none">I was talking too much and then</div>
+        <div class="tarja-header-fons-data">19 Sept 2024</div>
+      </div>
+    </div>
+    <div class="tarja-model-foto-content">
+      <div class="tarja-header-fons"> 
+      <div class ="tarja-header-fons-text">Web Design templates are good for your health, actually</div>
+      </div>
+
+      <div class="tarja-cos-content"> 
+        <div class ="">Web Design templates are good for your health, actually</div>
+      </div>
+    </div>
+    
+  </div>
+
+</div>
+</div>
+
+<div class="container">
+  <!-- Title-->
+  <!-- Card columns-->
+  <div class="card-columns">
+
+    <!-- Card-->
+    <div class="card border-0">
+      <div class="position-relative text-white">
+
+        <div class="card-img-overlay three"></div>
+
+        <div class="card-smooth-caption">
+          <div class="d-flex justify-content-between align-items-center">
+            <div class="h3">Web Design templates</div>
+            
+          </div>
+        </div>
+      </div>
+
+      <div class="card-body">
+        <p class="card-text"> Minim dolor in amet nulla laboris enim dolore consequat proident fugiat culpa eiusmod proident sed excepteur excepteur magna irure ex officia ea sunt in incididunt.</p>
+      </div>
+
+      <div class="card-footer">
+        <div class="media align-items-center">
+          <div class="media-body"><a class="card-link text-uppercase" href="javascript://">Read More</a></div>
+        </div>
+      </div>
+
+    </div>
+
+    <!-- Card-->
+    <div class="card text-white border-0">
+
+      <div class="card-img-overlay --card-img-overlay-purple d-flex flex-column justify-content-between align-items-start p-5 four"></div>
+
+      <div class="card-img-overlay card-overlay-black hover-light d-flex flex-column justify-content-between align-items-start">
+        <div class="d-flex justify-content-between w-100 mb-3">
+        </div>
+        <div class="mb-4">
+
+          <div class="h3"><a class="text-white text-decoration-none" href="javascript://">Web Design templates<br>Selection</a></div>
+        </div>
+        <div class="text-light">January 14 2023</div>
+      </div>
+    </div>
+
+    <!-- Card-->
+    <div class="card text-white border-0">
+
+      <div class="card-img-overlay --card-img-overlay-purple d-flex flex-column justify-content-between align-items-start p-5 three"></div>
+
+      <div class="card-img-overlay card-overlay-black hover-light d-flex flex-column justify-content-between align-items-start">
+        <div class="d-flex justify-content-between w-100 mb-3">
+        </div>
+        <div class="mb-4">
+
+          <div class="h3"><a class="text-white text-decoration-none" href="javascript://">Web Design templates<br />Selection</a></div>
+        </div>
+        <div class="text-light">January 16 2023</div>
+      </div>
+    </div>
+
+
+    <!-- Card-->
+
+    <div class="card border-0">
+      <div class="position-relative">
+
+      </div>
+      <div class="card-body">
+        <h5 class="card-title">Card title</h5>
+        <hr>
+        <p class="card-text">Minim dolor in amet nulla laboris enim dolore consequat proident fugiat culpa eiusmod proiden.</p>
+      </div>
+      <div class="card-footer">
+        <div class="media align-items-center">
+          <div class="media-body"><a class="card-link text-uppercase" href="javascript://">Read More</a></div>
+        </div>
+      </div>
+    </div>
+
+
+  </div>
+</div>
+
+</div>
+
   {%- if posts.size > 0 -%}
     {%- if page.list_title -%}
       <h2 class="post-list-heading">{{ page.list_title }}</h2>
@@ -68,19 +228,21 @@ layout: base
     <ul class="post-list">
       {%- assign date_format = site.minima.date_format | default: "%b %-d, %Y" -%}
       {%- for post in posts -%}
-      {% if post.categories contains 'misc' %}
+      {% unless post.categories contains 'feature' %}
       <li>
+        
         <span class="post-meta">{{ post.date | date: date_format }}</span>
         <h3>
           <a class="post-link" href="{{ post.url | relative_url }}">
             {{ post.title | escape }}
           </a>
         </h3>
+        {{ post.content | strip_html | truncatewords: 20 }}
         {%- if site.show_excerpts -%}
           {{ post.excerpt }}
         {%- endif -%}
       </li>
-      {% endif %}
+      {% endunless %}
       {%- endfor -%}
     </ul>
 
@@ -103,5 +265,10 @@ layout: base
     {%- endif %}
 
   {%- endif -%}
+
+</div>
+
+
+
 
 </div>

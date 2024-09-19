@@ -81,7 +81,7 @@ figure > img {
 
 figcaption {
   font-size: $small-font-size;
-  margin: 0 auto;
+    margin: 0 auto;
   display: block;
 }
 
@@ -124,7 +124,7 @@ a {
   }
 
   &:hover {
-    color: $link-hover-color;
+    //color: $link-hover-color;
     text-decoration: underline;
   }
 
