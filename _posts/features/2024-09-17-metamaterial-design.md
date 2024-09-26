@@ -6,14 +6,16 @@ author: Ton Creus Costa
 categories: feature
 ---
 
- Using Swan’s ﬂexibility, the manufacturability of the optimal designs can be guaranteed:
+Swan can be used to **design materials** in many diﬀerent ways, including:
 
-- Usage of **perimeter** and **minimum-length-scale constraints** to avoid formation of small beams in the obtained solution
-- Usage of **anisotropic perimeter** to limit the **overhang** of the solution for additive manufacturing
+- Usage of **inverse homogenization** constraints
+- An optimal topology for a microstructure is found given a **pre-established relations** between the terms of the constitutive tensor
+- Given a **user-deﬁned constitutive tensor**, an optimal topology for a microstructure is found
 
+This is one of the main lines of research of Swan's developers. 
 <figure>
-  <img src="/assets/images/hero-additivemanufacturing.png" alt="my alt text"/>
-  <figcaption>This is my caption text.</figcaption>
+  <img src="/assets/images/features/hero-materials.gif" alt="Negative Poisson material"/>
+  <figcaption>Metamaterial with a negative Poisson's ratio.</figcaption>
 </figure>
 
 

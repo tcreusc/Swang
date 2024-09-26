@@ -1,7 +1,9 @@
 /**
  * Site header
  */
+$verd-maco: darken(#3ecd5e, 15%);
  .site-header {
+    background-color: $verd-maco;
     border-top: 5px solid $border-color-03;
     border-bottom: 1px solid $border-color-01;
     min-height: $spacing-unit * 1.865;
@@ -11,6 +13,10 @@
     position: relative;
   }
   
+  .site-header a{
+    color: white;
+    text-decoration: none;
+  }
   .site-title {
     @include relative-font-size(1.625);
     font-weight: 300;
@@ -32,7 +38,7 @@
     position: absolute;
     top: 9px;
     right: $spacing-unit * .5;
-    background-color: $background-color;
+    //background-color: $background-color;
     border: 1px solid $border-color-01;
     border-radius: 5px;
     text-align: right;
@@ -74,7 +80,7 @@
     }
   
     .page-link {
-      color: $text-color;
+      //color: $text-color;
       line-height: $base-line-height;
       display: block;
       padding: 5px 10px;
@@ -338,4 +344,23 @@
     .one-half {
       width: calc(50% - (#{$spacing-unit} / 2));
     }
+  }
+
+  .page-link {
+    background-color: $verd-maco;
+    border: 0;
+  }
+
+  .page-link a {
+    color: white;
+  }
+  
+  .page-link:hover {
+    background-color: $verd-maco;
+    color: white;
+    font-weight: bold;
+
+    -webkit-transition: all .3s ease;
+    -o-transition: all .3s ease;
+    transition: all .3s ease;
   }

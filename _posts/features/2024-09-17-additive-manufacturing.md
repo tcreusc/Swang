@@ -9,13 +9,14 @@ excerpt_separator: <!--end_excerpt-->
 
  Using Swan’s ﬂexibility, the manufacturability of the optimal designs can be guaranteed:
  <!--end_excerpt-->
-$$\nabla_x u = 0$$
+<!-- $$\nabla_x u = 0$$ -->
 
 - Usage of **perimeter** and **minimum-length-scale constraints** to avoid formation of small beams in the obtained solution
 - Usage of **anisotropic perimeter** to limit the **overhang** of the solution for additive manufacturing
 
+
 <figure>
-  <img src="/assets/images/hero-additivemanufacturing.png" alt="my alt text"/>
+  <img src="/assets/images/features/hero-additivemanufacturing.png" alt="my alt text"/>
   <figcaption>This is my caption text.</figcaption>
 </figure>
 

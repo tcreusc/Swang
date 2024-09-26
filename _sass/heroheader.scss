@@ -1,0 +1,122 @@
+$lila-maco: #952aff;
+$verd-maco: darken(#3ecd5e, 5%);
+$groc-maco: #f9b234;
+$blau-maco: rgb(13, 110, 253);
+
+.goinghome .localhero {
+  margin-top: 25px;
+  background-image: url('/assets/images/mix.png');
+  background-position: right;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-color: rgba(255,255,255,0.5);
+  background-blend-mode: lighten;
+}
+
+.goinghome .localhero .titol {
+  font-size: 2.5rem;
+  line-height: 1.2;
+  font-weight: 500;
+  padding: 100px 0 25px;
+}
+
+.goinghome .localhero .subtitol {
+  font-size: 1.5rem;
+  line-height: 1.2;
+  font-weight: 300;
+  line-height: 1.5;
+  color: lighten($text-color, 10%)
+}
+
+.goinghome .localhero .botonera {
+  padding-bottom: 150px;
+  margin-bottom: 100px;
+}
+
+.goinghome .localhero .botonera button {
+  all: unset;
+  font-size: 1.15rem;
+  
+  border-radius: 800px 800px;
+  padding: 10px 20px;
+  margin-top: 30px; 
+}
+
+.goinghome .localhero .botonera a  {
+  text-decoration: none;
+}
+
+#destacat{
+  color: white;
+  background-color: $verd-maco;
+  font-weight: 600;
+  margin-right: 20px;
+}
+
+#destacat:hover {
+  background-color: darken($verd-maco, 5%);
+  -webkit-transition: all .1s ease;
+  -o-transition: all .1s ease;
+  transition: all .1s ease;
+}
+
+#empty {
+  color: lighten($text-color, 20%);
+  background-color: white;
+  border: 1px solid lighten($text-color, 20%);
+}
+
+#empty:hover {
+  background-color: darken(white, 5%);
+  -webkit-transition: all .1s ease;
+  -o-transition: all .1s ease;
+  transition: all .1s ease;
+
+}
+
+@media (min-width: 420px) {
+  .goinghome .localhero {
+    background-color: rgba(255,255,255,0.85);
+    background-blend-mode: lighten;
+    background-position: center;
+  }
+}
+
+@media (min-width: 576px) {
+  .goinghome .localhero {
+    background-color: rgba(255,255,255,0.85);
+    background-blend-mode: lighten;
+    background-position: center;
+  }
+}
+
+@media (min-width: 796px) {
+  .goinghome .localhero {
+    background-position: right;
+    background-color: rgba(255,255,255,0.5);
+  }
+
+  .goinghome .localhero .subtitol {
+    width: 100%;
+  }
+}
+
+@media (min-width: 966px) {
+  .goinghome .localhero {
+    background-position: right;
+    background-color: rgba(255,255,255,0.5);
+  }
+  .goinghome .localhero .subtitol {
+    width: 50%;
+  }
+}
+
+@media (min-width: 1200px) {
+  .goinghome .localhero {
+    background-position: right;
+    background-color: rgba(255,255,255,0.5);
+  }
+  .goinghome .localhero .subtitol {
+    width: 50%;
+  }
+}

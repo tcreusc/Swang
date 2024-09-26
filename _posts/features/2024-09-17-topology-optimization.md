@@ -5,15 +5,15 @@ subtitle: TO allows the design of optimal structures bla bla
 author: Ton Creus Costa
 categories: feature
 ---
+Of course, Swan is capable of solving **topology optimization** problems like other commercial software. Some additional features that make it stand out are:
 
- Using Swan’s ﬂexibility, the manufacturability of the optimal designs can be guaranteed:
+- Usage of **varied constraints** that allow tailor-made solutions
+- Possibility of using **different optimizers** for the same problem
 
-- Usage of **perimeter** and **minimum-length-scale constraints** to avoid formation of small beams in the obtained solution
-- Usage of **anisotropic perimeter** to limit the **overhang** of the solution for additive manufacturing
 
 <figure>
-  <img src="/assets/images/hero-additivemanufacturing.png" alt="my alt text"/>
-  <figcaption>This is my caption text.</figcaption>
+  <img src="/assets/images/features/hero-topopt-bridge.gif" alt="Topology optimization example"/>
+  <figcaption>Topology optimization of a 3D bridge.</figcaption>
 </figure>
 
 

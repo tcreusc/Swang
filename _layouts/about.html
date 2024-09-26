@@ -1,0 +1,154 @@
+---
+layout: base
+---
+
+<h1 style="margin: 30px 0"> FAQs </h1>
+
+<div class="faqs">
+  <div class="faqs-q">What can I use Swan for?</div>
+  <div class="faqs-a">
+    Swan's versatility means that it can have as many uses as you can imagine. Here are
+    some examples that have motivated previous developments of the code:
+    <ul>
+      <li> Additive manufacturing</li>
+      <li> Lattice structures</li>
+      <li> Compliant mechanism designs</li>
+    </ul>
+  </div>
+</div>
+
+<div class="faqs">
+  <div class="faqs-q">How do you represent the domain?</div>
+  <div class="faqs-a">
+    <p>
+      Swan currently includes 3 methods to represent the domain:
+      <ul>
+        <li> Density-based methods</li>
+        <li> Phase-field methods</li>
+        <li> Level-set (implicit functions)</li>
+      </ul>
+    </p>
+  </div>
+</div>
+
+<div class="faqs">
+  <div class="faqs-q">Which optimizers can I use?</div>
+  <div class="faqs-a">
+    <p>
+      Well, that depends on the way you represent your domain:
+      <ul>
+        <li> <b>Density-based</b>: Projected Gradient, MMA, Interior Point Method, Augmented Lagrangian, Null Space</li>
+        <li> <b>Level-set</b>: SLERP, Projected SLERP, Hamilton-Jacobi, Augmented Lagrangian, Null Space</li>
+      </ul>
+    </p>
+  </div>
+</div>
+
+<div class="faqs">
+  <div class="faqs-q">Which constraints can I use?</div>
+  <div class="faqs-a">
+    <p>
+      So far, Swan includes the following constraints:
+      <ul>
+        <li> Compliance</li>
+        <li> Volume</li>
+        <li> Limiting von Mises stress norm</li>
+        <li> Minimum length scales</li>
+        <li> Overhang angle</li>
+        <li> Perimeter</li>
+        <li> Eigenvalue problems</li>
+      </ul>
+    </p>
+  </div>
+</div>
+
+<h1 style="margin-top: 30px"> Contributors </h1>
+<div>
+Swan is Àlex Ferrer's brainchild. He started developing this toolbox as part of his PhD thesis,
+and its scope has since broadened. This code is currently used by the
+<a href="https://www.cimne.com/3610/research-areas-and-groups/computational-materials-design--analysis/composites-and-advanced-materials-for-multifunctio">Composite and Advanced Materials for Multifunctional Structures research group</a> at CIMNE,
+the International Center for Numerical Methods in Engineering. 
+
+<br/><br/>
+
+Here are some of the contributors to the Swan code:
+</div>
+
+<div class="section-contributors">
+  <div class="section-contributors-contributor" >
+      <div class="contributor-image"> <img src="/assets/images/contributors/alexferrer.png"/></div>
+      <div class="contributor-name">Àlex Ferrer</div>
+      <div class="contributor-text">Researcher at CIMNE and lecturer at UPC, Àlex defended <a href="https://upcommons.upc.edu/handle/2117/108498">his thesis</a> on multi-scale topological design of materials</div>
+  </div>
+
+  <div class="section-contributors-contributor" >
+      <div class="contributor-image"> <img src="/assets/images/contributors/ferrandelafuente.png"/></div>
+      <div class="contributor-name">Ferran de la Fuente</div>
+      <div class="contributor-text">As part of <a href="https://upcommons.upc.edu/handle/2117/188789">his dissertation</a>, Ferran worked on topology optimization with a focus on manufacturability </div>
+  </div>
+
+  <div class="section-contributors-contributor" >
+      <div class="contributor-image"> <img src="/assets/images/contributors/alberttorres.jpeg"/></div>
+      <div class="contributor-name">Albert Torres</div>
+      <div class="contributor-text">As part of <a href="https://upcommons.upc.edu/handle/2117/188971">his dissertation</a>, Albert focused on using topology optimization for material design</div>
+  </div>
+
+  <div class="section-contributors-contributor" >
+      <div class="contributor-image"> <img src="/assets/images/contributors/raulrubio.jpeg"/></div>
+      <div class="contributor-name">Raul Rubio</div>
+      <div class="contributor-text">As part of <a href="https://upcommons.upc.edu/handle/2117/188968">his dissertation</a>, Raul used the finite element method to study the flow around an airfoil</div>
+  </div>
+
+  <div class="section-contributors-contributor" >
+      <div class="contributor-image"> <img src="/assets/images/contributors/ignacioizquierdo.jpeg"/></div>
+      <div class="contributor-name">Ignacio Izquierdo</div>
+      <div class="contributor-text">As part of <a href="https://upcommons.upc.edu/handle/2117/188969">his dissertation</a>, Ignacio studied large deformations of a wing using both linear and non-linear models </div>
+  </div>
+
+  <div class="section-contributors-contributor" >
+      <div class="contributor-image"> <img src="/assets/images/contributors/orioltrujillo.jpeg"/></div>
+      <div class="contributor-name">Oriol Trujillo</div>
+      <div class="contributor-text">As part of <a href="https://upcommons.upc.edu/handle/2117/188992">his dissertation</a>, Oriol worked on topology optimization problems with stress constraints </div>
+  </div>
+
+  <div class="section-contributors-contributor" >
+      <div class="contributor-image"> <img src="/assets/images/contributors/marcnunez.jpeg"/></div>
+      <div class="contributor-name">Marc Núñez</div>
+      <div class="contributor-text">As part of <a href="https://upcommons.upc.edu/handle/2117/189114">his dissertation</a>, Marc set benchmark cases and studied the results using various filters and algorithms</div>
+  </div>
+
+  <div class="section-contributors-contributor" >
+      <div class="contributor-image"> <img src="/assets/images/contributors/toncc.jpg"/></div>
+      <div class="contributor-name">Ton Creus</div>
+      <div class="contributor-text">As part of <a href="https://upcommons.upc.edu/handle/2117/372281">his dissertation</a>, Ton worked on accelerating the implementation of the finite element method</div>
+  </div>
+
+  <div class="section-contributors-contributor" >
+      <div class="contributor-image"> <img src="/assets/images/contributors/aitzibermaneru.jpg"/></div>
+      <div class="contributor-name">Aitziber Mañeru</div>
+      <div class="contributor-text">As part of <a href="https://upcommons.upc.edu/handle/2117/372205">her dissertation</a>, Aitziber implemented the optimal design of topologies considering mode analysis</div>
+  </div>
+
+  <div class="section-contributors-contributor" >
+      <div class="contributor-image"> <img src="/assets/images/contributors/arnaupena.png"/></div>
+      <div class="contributor-name">Arnau Pena</div>
+      <div class="contributor-text">As part of <a href="https://upcommons.upc.edu/handle/2117/374521">his dissertation</a>, Arnau implemented and evaluated the results of the fmincon and a Null Space optimizers</div>
+  </div>
+
+  <div class="section-contributors-contributor" >
+      <div class="contributor-image"> <img src="/assets/images/contributors/joelcarrasco.jpeg"/></div>
+      <div class="contributor-name">Joel Carrasco</div>
+      <div class="contributor-text">As part of his dissertation, Joel studied the relation of shape symmetry with isotropy and orthotropy in material design</div>
+  </div>
+
+  <div class="section-contributors-contributor" >
+      <div class="contributor-image"> <img src="/assets/images/contributors/jofregeli.jpeg"/></div>
+      <div class="contributor-name">Jofre Geli</div>
+      <div class="contributor-text">As part of <a href="https://upcommons.upc.edu/handle/2117/372268">his dissertation</a>, Jofre extended the SIMP-ALL formulation for material interpolation in n-dimensional cases </div>
+  </div>
+
+  <div class="section-contributors-contributor" >
+      <div class="contributor-image"> <img src="/assets/images/contributors/joseantoniotorres.jpeg"/></div>
+      <div class="contributor-name">Jose Antonio Torres</div>
+      <div class="contributor-text">As part of <a href="https://upcommons.upc.edu/handle/2117/374685">his dissertation</a>, Jose focused on 3D printing and anisotropic perimeter constraints for topology optimization </div>
+  </div>
