@@ -16,8 +16,8 @@ excerpt_separator: <!--end_excerpt-->
 
 
 <figure>
-  <img src="/assets/images/features/hero-additivemanufacturing.png" alt="my alt text"/>
-  <figcaption>This is my caption text.</figcaption>
+  <img src="/assets/images/features/hero-additivemanufacturing.png" alt="Effect of limiting the minimum length scale on the final optimized result."/>
+  <figcaption>Effect of limiting the minimum length scale on the final optimized result.</figcaption>
 </figure>
 
 These designs are also easily exportable, making Swan the ideal toolbox to design your pieces and 3D-print them directly. 
